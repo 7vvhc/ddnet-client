@@ -1,5 +1,5 @@
 Exit code: 0
-Wall time: 0.4 seconds
+Wall time: 0.2 seconds
 Total output lines: 789
 Output:
 /* (c) Magnus Auvinen. See licence.txt in the root of the distribution for more information. */
