@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.3 seconds
+Output:
 /* (c) Magnus Auvinen. See licence.txt in the root of the distribution for more information. */
 /* If you are missing that file, acquire a complete release at teeworlds.com.                */
 #ifndef GAME_CLIENT_COMPONENTS_MENUS_H
@@ -579,6 +582,7 @@ protected:
 	void RenderSkinPartSelection7(CUIRect MainView);
 	void RenderSettingsGraphics(CUIRect MainView);
 	void RenderSettingsSound(CUIRect MainView);
+	void RenderSettingsMyClient(CUIRect MainView);
 	void RenderSettings(CUIRect MainView);
 
 	// found in menus_settings_assets.cpp
@@ -686,6 +690,7 @@ public:
 		SETTINGS_SOUND,
 		SETTINGS_DDNET,
 		SETTINGS_ASSETS,
+		SETTINGS_MY_CLIENT,
 
 		SETTINGS_LENGTH,
 	};
